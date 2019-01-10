@@ -1,32 +1,5 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.editor.labelFormat": "short",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.colorTheme": "Hop Light",
-    "workbench.iconTheme": "material-icon-theme",
-
-    "window.zoomLevel": 1,
-    "window.openFoldersInNewWindow": "on",
-
-    "editor.formatOnSave": true,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
     "editor.renderWhitespace": "boundary",
-    "editor.formatOnType": true,
-    "editor.renderControlCharacters": true,
-
-    "files.autoGuessEncoding": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false,
-    },
-
-    "javascript.format.enable": true,
-
-    "prettier.singleQuote": true,
-    "prettier.eslintIntegration": true,
-    "prettier.tabWidth": 2,
-
-    "vim.disableExtension": true,
-
+    "files.autoGuessEncoding": true
 }
