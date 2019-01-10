@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Users/koboriakira/Library/Application Support/Code/User/workspaceStorage/13bced43ebb2e35c36010ca88ebf2c4f/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+1271342938.index
