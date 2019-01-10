@@ -1,0 +1,5 @@
+{
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "editor.renderWhitespace": "boundary",
+    "files.autoGuessEncoding": true
+}
