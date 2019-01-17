@@ -4,15 +4,12 @@
   "workbench.editor.tabSizing": "shrink",
   "workbench.colorTheme": "Hop Light",
   "workbench.iconTheme": "material-icon-theme",
-
   "window.zoomLevel": 1,
   "window.openFoldersInNewWindow": "on",
-
   "editor.formatOnSave": true,
   "editor.renderWhitespace": "boundary",
   "editor.formatOnType": true,
   "editor.renderControlCharacters": true,
-
   "files.autoGuessEncoding": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -20,13 +17,13 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-
   "javascript.format.enable": true,
-
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
   "prettier.tabWidth": 2,
-
-  "vim.disableExtension": true,
   "editor.tabSize": "2"
+  "vim.disableExtension": true,
+  // for windows
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "extensions.ignoreRecommendations": false,
 }
