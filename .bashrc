@@ -1,4 +1,4 @@
-source .git-prompt.sh
+source ~/.git-prompt.sh
 
 # aliases
 alias rm="rm -i"
