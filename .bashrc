@@ -3,8 +3,8 @@ source .git-prompt.sh
 # aliases
 alias rm="rm -i"
 alias cd..="cd .."
-alias l="ls -al --color=auto"
-alias ll="ls -al --color=auto"
+alias l="ls -al"
+alias ll="ls -al"
 alias lp="ls -p"
 alias h="history"
 alias back="cd $OLDPWD"
