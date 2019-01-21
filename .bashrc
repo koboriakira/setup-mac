@@ -1,7 +1,10 @@
+source ~/.git-prompt.sh
+
 # aliases
+alias rm="rm -i"
 alias cd..="cd .."
-alias l="ls -al --color=auto"
-alias ll="ls -al --color=auto"
+alias l="ls -al"
+alias ll="ls -al"
 alias lp="ls -p"
 alias h="history"
 alias back="cd $OLDPWD"
@@ -15,7 +18,7 @@ alias diskspace="du -S | sort -n -r | less"
 
 # enviroment variable
 # PS1 - Default interaction prompt
-export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n| => "
+export PS1="________________________________________________________________________________\n| \w \u@\h $(__git_ps1 " (%s)")\n| => "
 
 # PS2 - Continuation interactive prompt
 export PS2="| => "
