@@ -6,6 +6,7 @@
         logallrefupdates=true # what?
         symlinks=false # Git for Windowsでシンボリックリンクを利用する
         ignorecase=false # ファイル名の大文字小文字の変更を検知するようにする
+	excludesfile=~/.gitignore_global
 [user]
         email=private.beats@gmail.com
         name=Akira Kobori
@@ -47,3 +48,9 @@
         si = status --ignored
 [credential]
         helper = store
+# [difftool "sourcetree"]
+	# cmd=opendiff "$LOCAL" "$REMOTE"
+	# path=
+# [mergetool "sourcetree"]
+	# cmd=/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh "$LOCAL" "$REMOTE" -ancestor "$BASE" -merge "$MERGED"
+	# trustexitcode=true
