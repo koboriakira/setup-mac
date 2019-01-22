@@ -32,3 +32,8 @@ psgrep() {
 		echo "Need name to grep for"
 	fi
 }
+
+# init rbenv for my PC
+if [ `hostname` == 'AkiranoMBP' ] ; then
+	eval "$(rbenv init -)"
+fi
