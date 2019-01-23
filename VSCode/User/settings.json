@@ -21,11 +21,15 @@
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
   "prettier.tabWidth": 2,
-  "editor.tabSize": "2"
+  "prettier.disableLanguages": [
+    "vue",
+    "markdown",
+  ],
+  "editor.tabSize": "2",
   "vim.disableExtension": true,
   "html.format.endWithNewline": true,
   "html.format.extraLiners": "head, body, /html",
-  "git.autofetch": true
+  "git.autofetch": true,
   // for windows
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "extensions.ignoreRecommendations": false,
