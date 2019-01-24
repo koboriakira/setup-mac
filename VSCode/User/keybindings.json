@@ -1,5 +1,22 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
-[{
-  "key": "alt+v",
-  "command": "vscodevim-disabler.enableVim",
-}, ]
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+v",
+    "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "sideBarFocus"
+  }
+]
