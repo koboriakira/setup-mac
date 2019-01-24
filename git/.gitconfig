@@ -43,6 +43,7 @@
         po = push origin
         rh = reset --hard
         s = status
+	st = status
         sf = status -uno
         sh = show HEAD
         si = status --ignored
