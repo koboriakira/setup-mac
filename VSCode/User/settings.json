@@ -16,7 +16,7 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
-    "files.trimTrailingWhitespace": false,
+    "files.trimTrailingWhitespace": false
   },
   "javascript.format.enable": true,
   "prettier.singleQuote": true,
@@ -29,6 +29,7 @@
   "html.format.enable": true,
   "git.autofetch": true,
   // for windows
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "ubuntu1804.exe",
+  "terminal.integrated.shellArgs.windows": ["run", "/bin/bash"],
   "extensions.ignoreRecommendations": false
 }
