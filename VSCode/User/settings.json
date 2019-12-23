@@ -29,7 +29,6 @@
   "html.format.enable": true,
   "git.autofetch": true,
   // for windows
-  "terminal.integrated.shell.windows": "ubuntu1804.exe",
-  "terminal.integrated.shellArgs.windows": ["run", "/bin/bash"],
+  "terminal.integrated.shell.windows": "C:Program Files\\Git\\bin\\bash.exe",
   "extensions.ignoreRecommendations": false
 }
