@@ -1,7 +1,4 @@
 {
-  "workbench.startupEditor": "none",
-  "workbench.editor.labelFormat": "short",
-  "workbench.editor.tabSizing": "shrink",
   "workbench.colorTheme": "Hop Light",
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 1,
@@ -20,7 +17,6 @@
   },
   "javascript.format.enable": true,
   "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true,
   "prettier.tabWidth": 2,
   "prettier.disableLanguages": ["vue", "markdown", "jsp"],
   "vim.disableExtension": true,
@@ -28,7 +24,11 @@
   "html.format.extraLiners": "head, body, /html",
   "html.format.enable": true,
   "git.autofetch": true,
+  "extensions.ignoreRecommendations": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDragAndDrop": false,
   // for windows
-  "terminal.integrated.shell.windows": "C:Program Files\\Git\\bin\\bash.exe",
-  "extensions.ignoreRecommendations": false
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
