@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Hop Light",
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 1,
   "window.openFoldersInNewWindow": "on",
@@ -30,5 +29,6 @@
   "explorer.confirmDragAndDrop": false,
   // for windows
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.jediEnabled": false
 }

@@ -37,3 +37,11 @@ psgrep() {
 if [ `hostname` == 'AkiranoMBP' ] ; then
 	eval "$(rbenv init -)"
 fi
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"
+
+# Enviroment Variables
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
