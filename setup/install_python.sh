@@ -1,9 +1,9 @@
 echo "install_python: start" \
 && brew install pyenv \
 && echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshenv \
-&& echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile \
+&& echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc \
 && source ~/.zshenv \
-&& source ~/.zprofile \
+&& source ~/.zshrc \
 && eval "$(pyenv init -)" \
 && pyenv install 3.8.2 \
 && pyenv rehash \
