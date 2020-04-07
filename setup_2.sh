@@ -14,4 +14,4 @@ echo "==============================setup_2.sh: start===========================
 && source install_npm_modules.sh \
 && echo "==============================setup_2.sh: success==============================" \
 && echo "reboot!" \
-&& reboot
+&& sudo reboot

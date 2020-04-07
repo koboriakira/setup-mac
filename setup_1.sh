@@ -6,4 +6,4 @@ echo "==============================setup_1.sh: start===========================
 && source setup/brewcask_install.sh \
 && echo "==============================setup_1.sh: success==============================" \
 && echo "reboot!" \
-&& reboot
+&& sudo reboot
