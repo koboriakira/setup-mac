@@ -15,6 +15,8 @@ echo 'brewcask_install: start!' \
 && brew cask install google-japanese-ime \
 && brew cask install deepl \
 && brew cask install notion \
+&& brew cask install docker \
+&& brew cask install table-tool \
 && echo 'brewcask_install: success!'
 # 手動で入れるアプリケーション
 # recordbox
