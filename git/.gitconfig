@@ -27,6 +27,7 @@
         log2 = !git log2s --all
         log3 = !git log3s --all
         a = add .
+	br = branch
         c = commit
         cam = commit -a -m
         cm = commit -m
