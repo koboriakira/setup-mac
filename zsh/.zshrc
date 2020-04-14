@@ -2,6 +2,7 @@ autoload colors
 colors
 
 zsh ~/.git-prompt.sh
+eval "$(pyenv init -)"
 
 # aliases
 alias rm="rm -i"
