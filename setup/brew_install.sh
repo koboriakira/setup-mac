@@ -1,4 +1,5 @@
 #!/bin/zsh
 echo 'brew_install: success!' \
 && brew install tree \
-&& echo 'brew_install: success!'
+&& echo 'brew_install: success!' \
+&& brew install gnu-sed

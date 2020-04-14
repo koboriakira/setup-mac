@@ -17,6 +17,9 @@ echo 'brewcask_install: start!' \
 && brew cask install notion \
 && brew cask install docker \
 && brew cask install table-tool \
+&& brew cask install keycastr \
+&& brew cask install imageoptim \
+&& brew cask install rectangle \
 && echo 'brewcask_install: success!'
 # 手動で入れるアプリケーション
 # recordbox
