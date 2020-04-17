@@ -20,6 +20,9 @@ echo 'brewcask_install: start!' \
 && brew cask install keycastr \
 && brew cask install imageoptim \
 && brew cask install rectangle \
+&& brew cask install blackhole \
+&& brew cask install ladiocast \
+&& brew cask install obs \
 && echo 'brewcask_install: success!'
 # 手動で入れるアプリケーション
 # recordbox
