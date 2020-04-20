@@ -8,4 +8,5 @@ echo "install_python: start" \
 && pyenv install 3.8.2 \
 && pyenv rehash \
 && pyenv global 3.8.2 \
+&& pip install kaggle --upgrade \
 && echo "install_python: success"
