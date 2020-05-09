@@ -6,6 +6,7 @@
 cp ~/.zshenv ~/Dropbox/.zshenv \
 && cp ~/.ssh ~/Dropbox/.ssh \
 && cp ~/.aws ~/Dropbox/.aws \
-&& cp -R ~/Pictures ~/Dropbox \
-&& cp -R ~/Documents ~/Dropbox \
+&& cp -R ~/Pictures/kobori_icon ~/Dropbox/Pictures \
+&& cp -R ~/Pictures/Wallpapers ~/Dropbox/Pictures \
+#&& cp -R ~/Documents ~/Dropbox \
 && cp -R ~/Music ~/Dropbox
