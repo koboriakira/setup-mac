@@ -5,10 +5,9 @@
 echo "copy_from_dropbox: start" \
 && cp -fR ~/Dropbox/Pictures/* ~/Pictures \
 && cp -fR ~/Dropbox/Documents/* ~/Documents \
-&& cp -fR ~/Dropbox/.ssh/* ~/.ssh/ \
+&& cp -fR ~/Dropbox/.ssh ~/.ssh \
 && chmod 700 ~/.ssh \
 && chmod 600 ~/.ssh/* \
-&& cp -f ~/Dropbox/.zshrc ~/.zshrc \
 && cp -f ~/Dropbox/.zshenv ~/.zshenv \
 && cp -R ~/Dropbox/.aws ~/.aws \
 && echo "copy_from_dropbox: success"
