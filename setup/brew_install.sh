@@ -2,6 +2,8 @@
 echo 'brew_install: success!' \
 && brew install tree \
 && brew install iproute2mac \
-&& echo 'brew_install: success!' \
 && brew install gnu-sed \
-&& brew install git
+&& brew install git \
+&& brew install coreutils \
+&& brew install pstree \
+&& echo 'brew_install: success!'
