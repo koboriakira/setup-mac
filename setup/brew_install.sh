@@ -6,4 +6,5 @@ echo 'brew_install: success!' \
 && brew install git \
 && brew install coreutils \
 && brew install pstree \
+&& brew install gawk \
 && echo 'brew_install: success!'
