@@ -24,6 +24,10 @@ echo 'brewcask_install: start!' \
 && brew cask install blackhole \
 && brew cask install ladiocast \
 && brew cask install obs \
+&& brew cask install parallels \
+&& brew cask install pokerstars \
+# && brew cask install virtualbox \
+# && brew cask install vagrant \
 && echo 'brewcask_install: success!'
 # 手動で入れるアプリケーション
 # recordbox
