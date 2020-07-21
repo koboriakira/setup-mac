@@ -19,7 +19,7 @@
   // エディター、コンソールの文字サイズ
   "editor.fontSize": 16,
   // サジェストは最近選択されたものを優先
-  "editor.suggestSelection": "recentlyUsed",
+  "editor.suggestSelection": "first",
   // 入力時、保存時、ペースト時に自動フォーマット
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -51,11 +51,7 @@
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
   // 下記のファイルたちは自動フォーマット対象外
-  "prettier.disableLanguages": [
-    "vue",
-    "markdown",
-    "jsp"
-  ],
+  "prettier.disableLanguages": ["vue", "markdown", "jsp"],
   // vimでは拡張機能を使わない
   "vim.disableExtension": true,
   // HTMLフォーマットを有効化
@@ -67,7 +63,7 @@
   // 自動フェッチ
   "git.autofetch": true,
   // VS Intellicodeのサジェスト
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   ////////////////////////////////////////////
   // JavaScript
   ////////////////////////////////////////////
@@ -77,4 +73,5 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   // for windows
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "python.languageServer": "Microsoft"
 }
