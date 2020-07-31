@@ -8,7 +8,7 @@
   // 起動時ページを空白ページに
   "workbench.startupEditor": "newUntitledFile",
   // VSCodeの画面の大きさ
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
   // 新規ワークスペースを別ウインドウで開く
   "window.openFoldersInNewWindow": "on",
   // ファイルのドラッグドロップや削除時に確認アラートを出さない
