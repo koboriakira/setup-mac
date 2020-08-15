@@ -8,7 +8,7 @@
   // 起動時ページを空白ページに
   "workbench.startupEditor": "newUntitledFile",
   // VSCodeの画面の大きさ
-  "window.zoomLevel": -1,
+  "window.zoomLevel": -2,
   // 新規ワークスペースを別ウインドウで開く
   "window.openFoldersInNewWindow": "on",
   // ファイルのドラッグドロップや削除時に確認アラートを出さない
@@ -64,6 +64,25 @@
   "git.autofetch": true,
   // VS Intellicodeのサジェスト
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+
+  ////////////////////////////////////////////
+  // Python
+  ////////////////////////////////////////////
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.pycodestyleEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--ignore=W293, W504",
+    "--max-line-length=150",
+    "--max-complexity=20"
+  ],
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
+  "autoDocstring.docstringFormat": "google",
+
   ////////////////////////////////////////////
   // JavaScript
   ////////////////////////////////////////////
