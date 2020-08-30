@@ -26,6 +26,7 @@ echo 'brewcask_install: start!' \
 && brew cask install obs \
 && brew cask install parallels \
 && brew cask install pokerstars \
+&& brew cask install font-hack-nerd-font \
 # && brew cask install virtualbox \
 # && brew cask install vagrant \
 && echo 'brewcask_install: success!'

@@ -3,6 +3,7 @@ colors
 
 zsh ~/.git-prompt.sh
 eval "$(pyenv init -)"
+eval "$(starship init zsh)"
 
 # aliases
 alias rm="rm -i"

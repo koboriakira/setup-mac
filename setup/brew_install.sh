@@ -8,4 +8,5 @@ echo 'brew_install: success!' \
 && brew install pstree \
 && brew install gawk \
 && brew install github/gh/gh \
+&& brew install starship \
 && echo 'brew_install: success!'
