@@ -27,7 +27,7 @@
         log2 = !git log2s --all
         log3 = !git log3s --all
         a = add .
-	br = branch
+        br = branch
         c = commit
         cam = commit -a -m
         cm = commit -m
@@ -43,8 +43,8 @@
         mt = mergetool -t kdiff3
         po = push origin
         rh = reset --hard
-        s = status
-	st = status
+        s = status -s
+        st = status -s
         sf = status -uno
         sh = show HEAD
         si = status --ignored
