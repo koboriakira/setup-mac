@@ -1,7 +1,7 @@
 echo "install_python: start" \
 # pyenvのインストール、設定
 && brew install pyenv \
-&& echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshenv \
+&& echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc \
 && echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc \
 && source ~/.zshenv \
 && source ~/.zshrc \
