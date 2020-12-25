@@ -30,6 +30,7 @@ echo 'brewcask_install: start!' \
 && brew cask install todoist \
 && brew cask install google-cloud-sdk \
 && brew cask install postman \
+&& brew cask install licecap \
 # && brew cask install virtualbox \
 # && brew cask install vagrant \
 && echo 'brewcask_install: success!'
