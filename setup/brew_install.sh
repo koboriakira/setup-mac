@@ -1,5 +1,5 @@
 #!/bin/zsh
-echo 'brew_install: success!' \
+echo 'brew_install: start!' \
 && brew tap aws/tap \
 && brew install aws-sam-cli \
 && brew install tree \
@@ -16,4 +16,5 @@ echo 'brew_install: success!' \
 && brew install graphviz \
 && brew install plantuml \
 && brew install blackhole-16ch \
+&& brew install mas \
 && echo 'brew_install: success!'
