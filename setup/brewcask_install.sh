@@ -31,6 +31,8 @@ echo 'brewcask_install: start!' \
 && brew cask install google-cloud-sdk \
 && brew cask install postman \
 && brew cask install licecap \
+&& brew cask install alfred \
+&& brew cask install clipy \
 # && brew cask install virtualbox \
 # && brew cask install vagrant \
 && echo 'brewcask_install: success!'
