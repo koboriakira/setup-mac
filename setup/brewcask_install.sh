@@ -21,12 +21,15 @@ echo 'brewcask_install: start!' \
 && brew cask install keycastr \
 && brew cask install imageoptim \
 && brew cask install rectangle \
-&& brew cask install blackhole \
 && brew cask install ladiocast \
 && brew cask install obs \
 && brew cask install parallels \
 && brew cask install pokerstars \
 && brew cask install font-hack-nerd-font \
+&& brew cask install github \
+&& brew cask install todoist \
+&& brew cask install google-cloud-sdk \
+&& brew cask install postman \
 # && brew cask install virtualbox \
 # && brew cask install vagrant \
 && echo 'brewcask_install: success!'
