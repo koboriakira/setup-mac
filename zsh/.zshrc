@@ -1,9 +1,14 @@
 autoload colors
 colors
 
+# set
+set -C
+
 zsh ~/.git-prompt.sh
 eval "$(pyenv init -)"
 eval "$(starship init zsh)"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 # aliases
 alias rm="rm -i"
@@ -14,6 +19,7 @@ alias lp="ls -p"
 alias h="history"
 alias back="cd $OLDPWD"
 alias grep="grep --color=auto"
+alias chrome="chrome-cli"
 
 # the "kp" alias, in honor of tony p.
 alias kp="ps auxwww"
