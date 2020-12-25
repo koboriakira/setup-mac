@@ -11,6 +11,7 @@ echo "==============================setup_2.sh: start===========================
 && source setup/configure_vscode.sh \
 && source setup/install_python.sh \
 && source setup/install_node.sh \
+&& source setup/install_java.sh \
 && source install_npm_modules.sh \
 && echo "==============================setup_2.sh: success==============================" \
 && echo "reboot!" \
