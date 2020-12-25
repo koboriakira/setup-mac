@@ -55,3 +55,44 @@ psgrep() {
 		echo "Need name to grep for"
 	fi
 }
+
+# git関連のファンクション
+ghcr() {
+    gh repo create $1
+    git init
+    git remote add origin git@github.com:koboriakira/$1.git
+    cp ~/.git/hooks/pre-commit .git/hook/pre-commit
+    git status -s
+}
+
+openissue() {
+    issuetitle=$1
+    issuebody="Write later"
+    if [ $# -ge 2 ]; then
+        issuetitle=$2
+    fi
+    if [ $# -ge 3 ]; then
+        issuebody=$3
+    fi
+    echo $issuetitle
+    echo $issuebody
+    issuenumber=`gh issue create --title "$issuetitle" --body "$issuebody" | tail -1 | cut -d / -f7`
+    branchname=`echo $1 | tr A-Z a-z | sed -e 's/ /-/g'`
+    git co -b "$branchname#$issuenumber"
+
+}
+
+pullrequest() {
+    branch=`git branch --show-current`
+    issuenumber=`echo $branch | cut -d# -f2`
+    url=`gh pr create --title "$1" --body "Close #$issuenumber"`
+    chrome-cli open $url
+}
+
+closebranch() {
+    currentbranch=`git branch --show-current`
+    git co master
+    git pull origin master
+    git push --delete origin $currentbranch
+    git branch -d $currentbranch
+}
