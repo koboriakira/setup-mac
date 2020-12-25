@@ -1,7 +1,11 @@
 {
   // 非表示にするファイル
   "files.exclude": {
-    "**/.DS_Store": true
+    "**/.DS_Store": true,
+    // Python
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/*.egg-info": true
   },
   // 拡張子ごとにアイコンをつける
   "workbench.iconTheme": "material-icon-theme",
@@ -68,6 +72,7 @@
   ////////////////////////////////////////////
   // Python
   ////////////////////////////////////////////
+  "python.languageServer": "Pylance",
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
   "python.linting.lintOnSave": true,
@@ -83,6 +88,12 @@
   "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
   "autoDocstring.docstringFormat": "google",
 
+  "remark.format": {
+    "rules": {
+      "listItemIndent": "1"
+    }
+  },
+
   ////////////////////////////////////////////
   // JavaScript
   ////////////////////////////////////////////
@@ -91,6 +102,5 @@
   // ファイルパスの変更にあわせてimportを自動で追従させる
   "javascript.updateImportsOnFileMove.enabled": "always",
   // for windows
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "python.languageServer": "Microsoft"
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
