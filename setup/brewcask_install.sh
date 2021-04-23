@@ -34,6 +34,7 @@ echo 'brew install --cask: start!' \
 && brew install --cask alfred \
 && brew install --cask clipy \
 && brew install --cask vlc \
+&& brew install --cask libreoffice-language-pack --language=ja \
 # && brew install --cask virtualbox \
 # && brew install --cask vagrant \
 && echo 'brew install --cask: success!'
