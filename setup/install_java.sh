@@ -4,4 +4,4 @@ brew  install java \
 # シンボリックでコピーする
 && sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk \
 # JAVA_HOMEのパスを通しておく
-&& echo "export JAVA_HOME=`/usr/libexec/java_home -v xx`" >> ~/.zshrc
+&& echo "export JAVA_HOME=`/usr/libexec/java_home -v 16.0.1`" >> ~/.zshrc
