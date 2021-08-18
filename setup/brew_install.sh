@@ -17,4 +17,5 @@ echo 'brew_install: start!' \
 && brew install plantuml \
 && brew install blackhole-16ch \
 && brew install mas \
+&& brew install docker \
 && echo 'brew_install: success!'
