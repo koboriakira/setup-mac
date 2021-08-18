@@ -27,7 +27,6 @@ echo 'brew_install: start!' \
 && brew install wdiff --with-gettext \
 && brew install xmlstarlet \
 && echo 'brew_install: success!' \
-
 && echo 'brew install --cask: start!' \
 && brew install --cask notion \
 && brew install --cask docker \
