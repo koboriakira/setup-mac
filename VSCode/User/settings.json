@@ -2,17 +2,18 @@
   // 非表示にするファイル
   "files.exclude": {
     "**/.DS_Store": true,
-    // Python
     "**/__pycache__": true,
     "**/.pytest_cache": true,
-    "**/*.egg-info": true
+    "**/*.egg-info": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
   // 拡張子ごとにアイコンをつける
   "workbench.iconTheme": "material-icon-theme",
   // 起動時ページを空白ページに
   "workbench.startupEditor": "newUntitledFile",
-  // VSCodeの画面の大きさ
-  "window.zoomLevel": -1,
   // 新規ワークスペースを別ウインドウで開く
   "window.openFoldersInNewWindow": "on",
   // ファイルのドラッグドロップや削除時に確認アラートを出さない
@@ -55,7 +56,11 @@
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
   // 下記のファイルたちは自動フォーマット対象外
-  "prettier.disableLanguages": ["vue", "markdown", "jsp"],
+  "prettier.disableLanguages": [
+    "vue",
+    "markdown",
+    "jsp"
+  ],
   // vimでは拡張機能を使わない
   "vim.disableExtension": true,
   // HTMLフォーマットを有効化
@@ -68,7 +73,6 @@
   "git.autofetch": true,
   // VS Intellicodeのサジェスト
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
-
   ////////////////////////////////////////////
   // Python
   ////////////////////////////////////////////
@@ -85,15 +89,16 @@
     "--max-complexity=20"
   ],
   "python.formatting.provider": "autopep8",
-  "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
+  "python.formatting.autopep8Args": [
+    "--aggressive",
+    "--aggressive"
+  ],
   "autoDocstring.docstringFormat": "google",
-
   "remark.format": {
     "rules": {
       "listItemIndent": "1"
     }
   },
-
   ////////////////////////////////////////////
   // JavaScript
   ////////////////////////////////////////////
@@ -103,7 +108,18 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   // for windows
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-
-  "rust-client.engine": "rust-analyzer"
-
+  "tabnine.experimentalAutoImports": true,
+  ////////////////////////////////////////////
+  // Java
+  ////////////////////////////////////////////
+  "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+  "markdown-pdf.styles": [
+    "/Users/canary/git/setting/markdown/style.css"
+  ],
+  "rust.all_features": true,
+  "rust-analyzer.cargo.allFeatures": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.defaultDateFormat": null,
+  "gitlens.defaultDateShortFormat": null,
+  "rust-client.engine": "rust-analyzer",
 }

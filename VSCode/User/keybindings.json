@@ -18,5 +18,10 @@
     "key": "ctrl+shift+n",
     "command": "explorer.newFolder",
     "when": "sideBarFocus"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.terminal.split",
+    "when": "terminalFocus && terminalProcessSupported"
   }
 ]
