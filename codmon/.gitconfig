@@ -8,12 +8,12 @@
         ignorecase=false # ファイル名の大文字小文字の変更を検知するようにする
 	excludesfile=~/.gitignore_global
 [user]
-        email=private.beats@gmail.com
-        name=Akira Kobori
+        email=a_kobori@codmon.co.jp
+        name=Kobori Akira
 [merge]
         ff=false
 [push]
-        default = current
+        default = current # アップストリームの確認を省く
 [pull]
         ff = only
 [color]
