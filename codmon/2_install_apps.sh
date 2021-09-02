@@ -2,6 +2,7 @@
 echo 'brew_install: start!' \
 && brew install git \
 && brew install chrome-cli \
+&& brew install awscli \
 && brew install graphviz \
 && brew install plantuml \
 && brew install docker \
@@ -26,6 +27,7 @@ echo 'brew_install: start!' \
 && brew install wget \
 && brew install wdiff --with-gettext \
 && brew install xmlstarlet \
+&& brew install php \
 && echo 'brew_install: success!' \
 && echo 'brew install --cask: start!' \
 && brew install --cask notion \
@@ -37,4 +39,5 @@ echo 'brew_install: start!' \
 && brew install --cask karabiner-elements \
 && brew install --cask visual-studio-code \
 && brew install --cask google-japanese-ime \
+&& brew install --cask session-manager-plugin \
 && echo 'brew install --cask: success!'

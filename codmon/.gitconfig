@@ -7,9 +7,6 @@
         symlinks=false # Git for Windowsでシンボリックリンクを利用する
         ignorecase=false # ファイル名の大文字小文字の変更を検知するようにする
 	excludesfile=~/.gitignore_global
-[user]
-        email=a_kobori@codmon.co.jp
-        name=Kobori Akira
 [merge]
         ff=false
 [push]
