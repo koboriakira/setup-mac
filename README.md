@@ -1,9 +1,14 @@
 # セットアップ
 
 ```
-curl -fsSL https://raw.githubusercontent.com/koboriakira/dotfiles/main/install.sh | bash -s
+curl -fsSL https://raw.githubusercontent.com/koboriakira/setup-mac/master/install.sh | bash -s
 ```
 
+Dropboxをインストールできたら、下記シェルも実行する。
+
+```
+curl -fsSL https://raw.githubusercontent.com/koboriakira/setup-mac/master/copy_from_dropbox.sh | bash -s
+```
 
 ## 再インストールする前に
 
