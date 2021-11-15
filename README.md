@@ -1,5 +1,10 @@
 # セットアップ
 
+```
+curl -fsSL https://raw.githubusercontent.com/koboriakira/dotfiles/main/install.sh | bash -s
+```
+
+
 ## 再インストールする前に
 
 - 音楽系のファイルの整理をしておく
