@@ -8,6 +8,7 @@ brew install --cask \
   deepl \
   docker \
   dropbox \
+  google-chrome \
   google-japanese-ime \
   imageoptim \
   karabiner-elements \
@@ -18,7 +19,7 @@ brew install --cask \
   notion \
   obs \
   parallels \
-  pokerstars \
+  pushplaylabs-sidekick \
   rectangle \
   sketch \
   slack \
