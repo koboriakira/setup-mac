@@ -10,12 +10,12 @@ else
 fi
 
 # フォントをインストール
-bash setup/fonts.sh
+curl -fsSL https://raw.githubusercontent.com/koboriakira/setup-mac/master/setup/fonts.sh | bash -s
 
 # アプリをインストール
-bash setup/mac_brew_install.sh
-bash setup/mac_brew_cask_install.sh
-bash setup/mas_install.sh
+curl -fsSL https://raw.githubusercontent.com/koboriakira/setup-mac/master/setup/mac_brew_install.sh | bash -s
+curl -fsSL https://raw.githubusercontent.com/koboriakira/setup-mac/master/setup/mac_brew_cask_install.sh | bash -s
+curl -fsSL https://raw.githubusercontent.com/koboriakira/setup-mac/master/setup/mas_install.sh | bash -s
 
 echo "install: success!!"
 echo "INFO: 再起動してください。"
