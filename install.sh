@@ -5,8 +5,16 @@ echo "install: start"
 if type "brew" > /dev/null 2>&1; then
   : # do nothing
 else
-  echo "ERROR!!! brewがインストールされていません"
-  exit 1
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  if test -e /etc/os-release ; then
+    # Linuxのときはlinuxbrewのevalを設定
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $DOTPATH/.zsh/.zsh__temporary.zsh
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+  else
+    # Macのときは、brewの基本設定としてman8に書き込み権限を付与
+    chown -R $(whoami) /usr/local/share/man/man1 && chmod u+w /usr/local/share/man/man1
+    echo $(tput setaf 2)Install brew: complete!. ✔︎$(tput sgr0)
+  fi
 fi
 
 # フォントをインストール
